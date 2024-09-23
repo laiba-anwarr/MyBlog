@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: Neue;
+    src: url(./assets/fonts/NeueMontreal-Regular.ttf);
+}
+@font-face {
+    font-family:Founders ;
+    src: url(./assets/fonts/FoundersGrotesk-Semibold.ttf);
+}
+header{
+    font-family: Neue;
+}
