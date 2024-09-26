@@ -24,8 +24,10 @@ function Login() {
         const userData = await authService.getCurrentUser();
         // empty parameters pending error
         if (userData) dispatch(authLogin(userData));
-        navigate("/");
+        localStorage.setItem("userData", JSON.stringify(userData));
         setLoading(false);
+        navigate("/");
+       
       }
     } catch (error) {
       setError(error.message);

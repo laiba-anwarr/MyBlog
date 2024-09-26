@@ -56,6 +56,7 @@ async getCurrentUser() {
 async logOut(){
     try {
         // maybe there will be return
+        localStorage.removeItem("userData");
         await this.account.deleteSessions();
     } catch (error) {
      throw error   
