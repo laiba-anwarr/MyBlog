@@ -29,6 +29,7 @@ if(slug){
             setPost(post)
             setLoading(false)
      console.log(isAuthor)
+     console.log(userData.$id)
            }
         
 else 

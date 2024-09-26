@@ -80,7 +80,7 @@ function Post({ post }) {
           console.log("File uploaded successfully:", file);
           const fileId = file.$id;
           data.FeaturedImage = fileId;
-          console.log(`USER ID: ${userData.$id}`);
+         
           
           const dbPost = await databaseService.createPost({
             ...data,

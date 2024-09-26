@@ -39,7 +39,7 @@ if(loading){
 }
 
   return (
-    <div className="flex justify-center py-12 px-4 text-white px-4 font-Neue ">
+    <div className="flex justify-center py-12 px-4 text-white font-Neue ">
       <motion.div 
        initial={{opacity:0 , scale:0.9}}
        whileInView={{opacity:1, scale:1}}
