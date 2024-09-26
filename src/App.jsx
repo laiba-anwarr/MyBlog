@@ -10,12 +10,12 @@ import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 
 import ScrollTo from "./pages/ScrollTo";
-import LocomotiveScroll from 'locomotive-scroll';
+
 function App() {
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
   const [showHome , setShowHome]=useState(false)
-  const locomotiveScroll = new LocomotiveScroll();
+
 
   useEffect(() => {
     authService

@@ -85,7 +85,7 @@ function Post({ post }) {
           const dbPost = await databaseService.createPost({
             ...data,
             featuredImage: data.FeaturedImage,
-            userId: userData["$id"],
+            userId: userData.$id,
           });
           console.log("Creating post with data:", {
             ...data,

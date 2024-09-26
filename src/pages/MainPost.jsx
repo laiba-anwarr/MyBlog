@@ -28,7 +28,7 @@ if(slug){
            {
             setPost(post)
             setLoading(false)
-     
+     console.log(isAuthor)
            }
         
 else 

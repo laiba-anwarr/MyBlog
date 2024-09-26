@@ -31,7 +31,7 @@ databaseService.getPosts([]).then((posts)=>{
            {
            posts.length > 0 ? (
             posts?.map((post)=>(
-              <div key={post.$id} className=''>
+              <div key={post.$id} className='px-3'>
                   <PostCard post={post}
                   // or post ={post}
 // maybe error here
