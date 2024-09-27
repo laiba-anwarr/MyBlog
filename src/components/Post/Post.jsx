@@ -13,8 +13,7 @@ import LoadingSpinner from "../loading/LoadingSpinner";
 function Post({ post }) {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-  let userData1;
-  const userData = useSelector(state => state.auth.userData)
+  let userData;
   // check post  came from where
   const { register, control, handleSubmit, setValue, getValues, watch, reset } =
     useForm({
@@ -28,7 +27,7 @@ function Post({ post }) {
 
   React.useEffect(() => {
     let data = localStorage.getItem("userData");
-    userData1 = JSON.parse(data);
+    userData = JSON.parse(data);
     if (post) {
       reset({
         title: post.Title || "",
@@ -86,7 +85,7 @@ function Post({ post }) {
           const dbPost = await databaseService.createPost({
             ...data,
             featuredImage: data.FeaturedImage,
-            userId: userData? userData.$id : userData1.$id,
+            userId: userData.$id,
           });
           console.log("Creating post with data:", {
             ...data,
