@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 const Footer = () => {
   return (
-    <div className='w-full border-t-[1px] border-t-black pb-4 pt-16'>
+    <div className='w-full max-w-full border-t-[1px] border-t-black pb-4 pt-16'>
       <Container >
      
         <h2 className='text-[1rem] font-Neue text-center font-medium capitalize'>Got a project? need an unfair advantage</h2>

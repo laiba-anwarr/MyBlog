@@ -38,7 +38,7 @@ const aboutItems=[
 ]
 
   return (
-    <div className='w-full py-11  border-t-[1px] border-t-black'>
+    <div className='w-full py-11 max-w-full border-t-[1px] border-t-black'>
            
 <Container >
           

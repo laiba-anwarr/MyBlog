@@ -39,7 +39,7 @@ setShowHome(true)
   return !loading ? (
     <div
       // style={{backgroundImage:` url(${landingImage})`}}
-      className=" w-full bg-primary max-w-screen-2xl "
+      className=" w-full bg-primary max-w-full"
     >
       <Header handleanimation={handleanimation} />
       <ScrollTo />

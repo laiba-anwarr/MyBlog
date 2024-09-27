@@ -142,9 +142,9 @@ function Post({ post }) {
 
 
   return (
-    <div className="w-full max-w-screen-2xl pb-10">
+    <div className="w-full max-w-full pb-10">
       <Container>
-        <div className="card w-full lg:w-4/5 mx-auto rounded-xl max-w-screen-2xl pt-16 px-6 pb-10 bg-[#e5e5e5] mt-10 mb-10 ">
+        <div className="card w-full lg:w-4/5 mx-auto rounded-xl max-w-full pt-16 px-6 pb-10 bg-[#e5e5e5] mt-10 mb-10 ">
           <h1 className=" text-center text-[1.9rem] leading-[1.8rem] md:text-[3.4rem] md:leading-[3.4rem] text-[#646464]  tracking-wider font-Founders font-extrabold">
             WELCOME TO MYBLOG
           </h1>

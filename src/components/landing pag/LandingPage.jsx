@@ -63,7 +63,7 @@ const variants = {
 
   return (
  <main 
- className='w-full font-Founders overflow-hidden max-w-screen-2xl pb-14 bg-[#FAFAFA] '>
+ className='w-full font-Founders overflow-hidden max-w-full pb-14 bg-[#FAFAFA] '>
   
  
   <div
@@ -90,7 +90,7 @@ animate={animationStatus ? 'visible' :'hidden'}
 custom={1}
   
   >
-   <h2 className=' text-[2.1rem] leading-[2.1rem] sm:text-[3rem] sm:leading[2.5rem] md:text-[3.8rem] tracking-[0.2rem] md:leading-[3rem]'>
+   <h2 className=' text-[2.1rem] leading-[2.1rem] sm:text-[3rem] sm:leading[2.5rem] md:text-[3.8rem] tracking-[0.2rem] md:leading-[3rem] 2xl:text-[4rem] 2xl:leading-[3rem] 2xl:mt-8 '>
       NEW
     </h2>
    </motion.div>
@@ -100,7 +100,7 @@ custom={1}
     animate={animationStatus ? 'visible' : 'hidden'}
     custom={1}
     className='w-full'>
-      <h1 className='text-[7rem] leading-[5rem] text-[#646464]  sm:text-[11rem] sm:leading-[11rem] md:text-[10.5rem] md:leading-[8rem]  lg:text-[18rem]  lg:leading-[12rem] tracking-wide'>My BLOGGER</h1>
+      <h1 className='text-[7rem] leading-[5rem] text-[#646464]  sm:text-[11rem] sm:leading-[11rem] md:text-[10.5rem] md:leading-[8rem]  lg:text-[18rem]  lg:leading-[12rem] 2xl:text-[22rem] 2xl:leading-[14rem] tracking-wide'>MY BLOGGER</h1>
     </motion.div>
    <motion.div
    variants={variants}
@@ -108,7 +108,7 @@ custom={1}
    animate={animationStatus ? 'visible':null }
    custom={3}
    className=' mt-2 md:mt-2 sm:mt-6 lg:mt-8'>
-    <h2 className='text-right text-[2.1rem] leading-[2.1rem] text-[#646464] sm:text-[3rem] sm:leading[2.5rem] md:text-[3.8rem] tracking-[0.2rem] md:leading-[3rem]'>APP</h2>
+    <h2 className='text-right text-[2.1rem] leading-[2.1rem] text-[#646464] sm:text-[3rem] sm:leading[2.5rem] md:text-[3.8rem] tracking-[0.2rem] md:leading-[3rem] 2xl:text-[4rem] 2xl:leading-[3rem] 2xl:mt-8 '>APP</h2>
    </motion.div>
   <div className='pt-[1rem] md:pt-[5rem]  '> 
   {

@@ -6,6 +6,8 @@ export default {
   ],
   theme: {
     extend: {
+
+      
       colors: {
         primary: '#F1F1F1', // Custom primary color
         // secondary: '#ffed4a', // Custom secondary color

@@ -59,7 +59,7 @@ navigate('/all-posts')
         )
     }
   return (
-    <div className='w-full overflow-hidden pb-10 flex flex-col md:flex-row  relative '>
+    <div className='w-full max-w-full overflow-hidden pb-10 flex flex-col md:flex-row  relative '>
        <Container>
  <div className=' flex flex-col xl:flex-row  w-full'>
  <div className='left h-full w-full xl:w-2/4 flex justify-center xl:block  pt-40   '>
