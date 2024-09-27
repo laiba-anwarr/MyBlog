@@ -24,7 +24,6 @@ function Signup() {
       if (session) {
         const userData = await authService.getCurrentUser();
         if (userData) dispatch(login(userData));
-        localStorage.setItem("userData", JSON.stringify(userData));
         setLoading(false)
       navigate('/')
       }
